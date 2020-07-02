@@ -1,6 +1,18 @@
 #include <IE.au3>
 #include <Array.au3>
 #include <Date.au3>
+
+If Not FileExists("C:\Repos\AUTOIT_EXPERIENCE\AutoIT_ImageSearch\_ImageSearch_Tool.au3") Then
+   MsgBox(0,"ARQUIVO NÃO ENCONTRADO","ATENÇÃO" & @CRLF & "Arquivo não encontrado em:" & @CRLF & "C:\Repos\AUTOIT_EXPERIENCE\AutoIT_ImageSearch\_ImageSearch_Tool.au3" & @CRLF & @CRLF & "Verifique o arquivo.")
+   Exit
+EndIf
+
+If Not FileExists("C:\Repos\AUTOIT_EXPERIENCE\AutoIT_ImageSearch\_ImageSearch_UDF.au3") Then
+   MsgBox(0,"ARQUIVO NÃO ENCONTRADO","ATENÇÃO" & @CRLF & "Arquivo não encontrado em:" & @CRLF & "C:\Repos\AUTOIT_EXPERIENCE\AutoIT_ImageSearch\_ImageSearch_UDF.au3" & @CRLF & @CRLF & "Verifique o arquivo.")
+   Exit
+EndIf
+
+; !IMPORTANTE!!!! Os aquivos do projetos devem estar CONTIDO nessa pasta
 #include "C:\Repos\AUTOIT_EXPERIENCE\AutoIT_ImageSearch\_ImageSearch_Tool.au3"
 #include "C:\Repos\AUTOIT_EXPERIENCE\AutoIT_ImageSearch\_ImageSearch_UDF.au3"
 Global $iBegin = TimerInit()
