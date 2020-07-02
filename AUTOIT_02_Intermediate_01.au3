@@ -1,8 +1,8 @@
 #include <IE.au3>
 #include <Array.au3>
 #include <Date.au3>
-#include "C:\Repos\AutoIT_ImageSearch\_ImageSearch_Tool.au3"
-#include "C:\Repos\AutoIT_ImageSearch\_ImageSearch_UDF.au3"
+#include "C:\Repos\AUTOIT_EXPERIENCE\AutoIT_ImageSearch\_ImageSearch_Tool.au3"
+#include "C:\Repos\AUTOIT_EXPERIENCE\AutoIT_ImageSearch\_ImageSearch_UDF.au3"
 Global $iBegin = TimerInit()
 
 AdlibRegister("", 1000) ; every second
@@ -29,7 +29,7 @@ Func AutoIeImage()
    ReturnFindColor(0xE89E10,"Laranja")
    ReturnFindColor(0xD08A4C,"Marrom")
    FindImage('IMG_BMP_0')
-   FileWrite(@ScriptDir & "\logs.txt", _Now() & ": FINISH EXECUTION, " TimerDiff($iBegin) & " seconds" & @CRLF)
+   FileWrite(@ScriptDir & "\logs.txt", "FINISH EXECUTION, " TimerDiff($iBegin) & " seconds" & @CRLF)
 EndFunc
 Func IETest($sText)
    FileWrite(@ScriptDir & "\logs.txt", _Now() & ": Start IETest('" &$sText& "')" & @CRLF)
@@ -43,7 +43,7 @@ Func IETest($sText)
    Sleep(500)
    $oIE.document.parentwindow.execScript('document.querySelector(".q.qs").click()')
    WinSetState($hWnd, "", @SW_MAXIMIZE)
-   Sleep(1000)
+   Sleep(1500)
    FileWrite(@ScriptDir & "\logs.txt", _Now() & ": Finish IETest()" & @CRLF)
 EndFunc
 Func ReturnFindColor($xColor,$NameColor)
@@ -67,7 +67,7 @@ EndFunc
 Func FindImage($imgFile)
    FileWrite(@ScriptDir & "\logs.txt", _Now() & ": Start FindImage('" & $imgFile & "')" & @CRLF)
    Local $_Image_1, $result_img
-   For $x = 1 to 5
+   For $x = 1 to 8
 	  $_Image_1 = @ScriptDir&'\' & $imgFile & $x & '.BMP'
 	  $result_img = _ImageSearch($_Image_1)
 	  If $result_img[0] = 1 Then
