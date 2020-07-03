@@ -9,7 +9,7 @@ Faça uma leitura dinâmica na apresentação em [PPT](PPT).
 
 Divirta-se! :grin:
 
-## Tópido apresentados no [PPT](PPT).
+## Tópicos apresentados no [PPT](PPT)
 
 1. Introdução
 	- O que é? Qual a verdadeira motivação?
