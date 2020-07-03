@@ -79,8 +79,8 @@ EndFunc
 Func FindImage($imgFile)
    FileWrite(@ScriptDir & "\logs.txt", _Now() & ": Start FindImage('" & $imgFile & "')" & @CRLF)
    Local $_Image_1, $result_img
-   For $x = 1 to 8
-	  $_Image_1 = @ScriptDir&'\' & $imgFile & $x & '.BMP'
+   For $x = 1 to 10
+	  $_Image_1 = @ScriptDir&'\example_img_list\' & $imgFile & $x & '.BMP'
 	  $result_img = _ImageSearch($_Image_1)
 	  If $result_img[0] = 1 Then
 		 TrayTip( "Imagem encontrada :-)", "Pequeno  Principe (*" & $x & ") in [" & $result_img[1] & "," & $result_img[2]& "]"  , -1, 1)

@@ -103,7 +103,7 @@ Func AutoNotepad()
    MouseMove($aPos[0]+$bPos[0]+$bPos[2]/2,$aPos[1]+$bPos[1]+$bPos[3]/2+30)
 EndFunc
 
-;DisplayAllMessages()
+DisplayAllMessages()
 Func DisplayAllMessages()
    MsgBox(0,"ATENÇÃO","Click em OK para COMEÇAR!")
    ProgressOn("Checking ...", "ProgressOn", "0 %", -1, -1, 16)

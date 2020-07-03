@@ -30,3 +30,22 @@
 02/07/2020 16:25:24: Start ReturnFindColor('15244816','Laranja')
 02/07/2020 16:25:29: Start ReturnFindColor('13666892','Marrom')
 02/07/2020 16:25:35: Start FindImage('IMG_BMP_0')
+02/07/2020 21:39:06: NEW EXECUTION
+02/07/2020 21:39:06: Start IETest('LULU MUITO MACHO')
+02/07/2020 21:39:12: Finish IETest()
+02/07/2020 21:39:12: Start ReturnFindColor('15244816','Laranja')
+02/07/2020 21:39:30: Start ReturnFindColor('13666892','Marrom')
+02/07/2020 21:39:46: Start FindImage('IMG_BMP_0')
+02/07/2020 21:39:47: Finish FindImage()
+02/07/2020 21:42:07: NEW EXECUTION
+02/07/2020 21:42:07: Start IETest('LULU MUITO MACHO')
+02/07/2020 21:42:12: Finish IETest()
+02/07/2020 21:42:12: Start ReturnFindColor('15244816','Laranja')
+02/07/2020 21:42:19: Start ReturnFindColor('13666892','Marrom')
+02/07/2020 21:42:25: Start FindImage('IMG_BMP_0')
+03/07/2020 10:20:40: NEW EXECUTION
+03/07/2020 10:20:40: Start IETest('LULU MUITO MACHO')
+03/07/2020 10:20:46: Finish IETest()
+03/07/2020 10:20:46: Start ReturnFindColor('15244816','Laranja')
+03/07/2020 10:20:52: Start ReturnFindColor('13666892','Marrom')
+03/07/2020 10:20:59: Start FindImage('IMG_BMP_0')
