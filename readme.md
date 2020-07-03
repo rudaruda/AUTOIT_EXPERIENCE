@@ -12,17 +12,17 @@ Divirta-se! :grin:
 ## Tópido apresentados no [PPT](PPT).
 
 1. Introdução
-  - O que é? e Qual a motivação?
-  - Arquitetura básica
+	- O que é? e Qual a motivação?
+	- Arquitetura básica
 2. Básico
-  - Programação imperativa (BASIC)
+   - Programação imperativa (BASIC)
   - Macros / Palavras reservadas
   - Bibliotecas
   - Movimentos do Mouse
   - Simulação do teclado
   - Manipulando Janelas
 3. Itermediário
-  - Display message
+    - Display message
   - Logs
   - Pesquisa de Imagens e Pixel
 4. Avançado
