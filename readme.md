@@ -12,22 +12,22 @@ Divirta-se! :grin:
 ## Tópido apresentados no [PPT](PPT).
 
 1. Introdução
- - O que é? e Qual a motivação?
- - Arquitetura básica
+  - O que é? e Qual a motivação?
+  - Arquitetura básica
 2. Básico
- - Programação imperativa (BASIC)
- - Macros / Palavras reservadas
- - Bibliotecas
- - Movimentos do Mouse
- - Simulação do teclado
- - Manipulando Janelas
+  - Programação imperativa (BASIC)
+  - Macros / Palavras reservadas
+  - Bibliotecas
+  - Movimentos do Mouse
+  - Simulação do teclado
+  - Manipulando Janelas
 3. Itermediário
- - Display message
- - Logs
- - Pesquisa de Imagens e Pixel
+  - Display message
+  - Logs
+  - Pesquisa de Imagens e Pixel
 4. Avançado
- - Experiencia com Rundeck (isso mesmo AutoIt + Rundeck)
- - Estratégia de automação
+  - Experiencia com Rundeck (isso mesmo AutoIt + Rundeck)
+  - Estratégia de automação
  
 
 ## Para melhor experência (execução dos scripts)
