@@ -1,7 +1,7 @@
 # AutoIt Experience
 > Aqui temos rápida jornada de AutoIt do básico ao avançado.
 
-Uma ótima linguaguem para obter resultados rápidos em automação de alto nível [(totalmente diferente de automação de baixo nível)](https://becode.com.br/linguagens-alto-nivel-x-baixo-nivel/){:target="_blank"}.<br/>
+Uma ótima linguaguem para obter resultados rápidos em automação de alto nível <a href="https://becode.com.br/linguagens-alto-nivel-x-baixo-nivel/" target="_blank">(totalmente diferente de automação de baixo nível)</a>.<br/>
 Com recurso de manipulação de janelas, teclado e mouse.<br/>
 Existindo ainda possibilidade de recursos diversos como localizar pixel por cor e pesquisa de imagens na tela.
 
@@ -15,7 +15,7 @@ Divirta-se! :grin:
 	- O que é? Qual a verdadeira motivação?
 	- Arquitetura básica
 2. Básico
-	- Programação imperativa ([BASIC](https://en.wikipedia.org/wiki/BASIC){:target="_blank"})<a href="http://example.com/" target="_blank">example</a>
+	- Programação imperativa (<a href="https://en.wikipedia.org/wiki/BASIC/" target="_blank">BASIC</a>)
 	- Macros / Palavras reservadas
 	- Bibliotecas
 	- Movimentos do Mouse
@@ -36,8 +36,7 @@ Existem variáveis absolutas no script "AUTOIT_02_Intermediate_01.au3" que fazem
 Logo todo projeto deve estar em "C:\repos\AUTOIT_EXPERIENCE"
 ![Alt text](img_c_repos_folder.png?raw=true "Title")
 
-### Pre-requisitos
+### Pré-requisitos
 
 Tem o AUTOIT instalado <br/>
 https://www.autoitscript.com/site/
-
