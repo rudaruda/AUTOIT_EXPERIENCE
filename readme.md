@@ -1,14 +1,15 @@
 # AutoIt Experience
 ```
 Aqui temos rápida jornada de AutoIt do básico ao avançado.
-Faça uma leitura dinâmica na apresentação em PTT [PPT](test_dir).
 ```
 
-Uma ótima linguaguem para obter resultados rápidos em automação de alto nível (totalmente diferente de automação de baixo nível).<br/>
+Uma ótima linguaguem para obter resultados rápidos em automação de alto nível [(totalmente diferente de automação de baixo nível)](https://becode.com.br/linguagens-alto-nivel-x-baixo-nivel/).<br/>
 Com recurso de manipulação de janelas, teclado e mouse.<br/>
 Existindo ainda possibilidade de recursos diversos como localizar pixel por cor e pesquisa de imagens na tela.
 
-Divirta-se!
+Faça uma leitura dinâmica na apresentação em [PPT](PPT).
+
+Divirta-se! :grin:
 
 ## Para melhor experência (exeução dos scripts)
 Clone\Descompacte o projeto em "C:\repos\" mais precisamente deve ficar em "C:\repos\AUTOIT_EXPERIENCE" <br/>
